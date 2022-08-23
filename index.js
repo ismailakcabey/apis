@@ -11,6 +11,6 @@ app.use(express.json())
 app.use('/',router)
 
 app.listen(process.env.PORT || 8080,()=>{
-    console.log(8080+"portunda index.js calisiyor");
+    console.log(8080+"portunda index.js calisiyorrr");
     connectDB()
 })
