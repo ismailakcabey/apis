@@ -8,7 +8,7 @@ const app =express();
 
 app.use(express.json())
 
-app.use('/',router)
+app.use('/users',router)
 
 app.listen(process.env.PORT || 8080,()=>{
     console.log(8080+"portunda index.js calisiyorrr");
